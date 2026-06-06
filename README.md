@@ -6,6 +6,8 @@ Useful English learning resources for self-study.
 
 The project is organized into three main sections: Vocabulary, Grammar, and Practice.
 
+The content is still under development, and more topics will be added over time.
+
 ```text
 index.html
 ├── Vocabulary
