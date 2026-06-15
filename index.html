@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
+  <title>Actually Useful English</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <h1 class="logo">Actually Useful English</h1>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="vocabulary.html">Vocabulary</a>
+        <a href="grammar.html">Grammar</a>
+        <a href="practice.html">Practice</a>
+        <a href="resources.html">Resources</a>
+        <a href="mapsite.html" class="nav-button">All Topics</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <h2>Learn English That People Actually Use</h2>
+        <p>Explore grammar, vocabulary and useful English resources designed for self-study.</p>
+        <a href="#categories" class="button">Explore Resources</a>
+      </div>
+    </section>
+
+    <section id="categories" class="categories">
+      <div class="container">
+        <h2>Explore by Category</h2>
+
+        <div class="category-grid">
+          
+          <article class="card vocabulary-card">
+            <h3>Vocabulary</h3>
+            <p>Words, collocations, phrasal verbs and expressions.</p>
+          </article>
+
+          <article class="card grammar-card">
+            <h3>Grammar</h3>
+            <p>Tenses, structures, conditionals and more.</p>
+          </article>
+
+          <article class="card practice-card">
+            <h3>Practice</h3>
+            <p>Exercises and activities to test your English.</p>
+          </article>
+
+          <article class="card resources-card">
+            <h3>Resources</h3>
+            <p>Useful tools, websites and study materials.</p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+    
+    <div class="container"> 
+              <a href="#" class="button all-topics-button">View All Topics →</a>
+    </div>
+
+
+    <section class="suggestions">
+      <div class="container">
+        <h2>Suggestions & Feedback</h2>
+        <p>Have an idea, found an issue or want to suggest a topic? Let us know.</p>
+
+        <form class="suggestions-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Mail:</label>
+              <input type="email" id="email" name="email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="type">Suggestion type:</label>
+            <select id="type" name="type">
+              <option value="">Select an option</option>
+              <option value="topic">New topic</option>
+              <option value="issue">Issue</option>
+              <option value="feedback">Feedback</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+
+          <button type="submit" class="button">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><a href="#">All Topics</a> | <a href="#">GitHub</a></p>
+      <p>Built for English learners.</p>
+      <p>© 2026 Actually Useful English</p>
+    </div>
+  </footer>
+
+</body>
+</html>  
