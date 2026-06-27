@@ -361,6 +361,73 @@ textarea {
 }
 
 /* =========================
+   GRAMMAR PAGE
+========================= */
+
+.grammar-page{
+  margin-top: 80px;
+}
+
+.grammar-hero{
+  margin-bottom: 80px;
+}
+
+.grammar-hero .container{
+  min-height: 300px;
+  padding: 64px;
+
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-text);
+  border-radius: 24px;
+}
+
+.grammar-hero h2{
+  font-size: 56px;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.grammar-hero p{
+  max-width:600px;
+  color: var(--color-muted);
+  font-size:18px;
+}
+
+
+.grammar-content{
+  min-height: 600px;
+  padding: 48px;
+
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-text);
+  border-radius: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   Vocabulary PAGE
+========================= */
+
+
+
+
+
+
+
+/* =========================
    RESPONSIVE
 ========================= */
 
